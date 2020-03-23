@@ -1,0 +1,42 @@
+.navbar{
+    background: transparent !important;
+}
+
+.logo-text{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 600;
+}
+.section-hero{
+    padding: 230px 0px;
+    background: url(../images/section-hero/header_img.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.box-hero-head-title{
+    font-weight: 700;
+}
+
+.box-form-general{
+    background: white;
+    margin: 0% 20%;
+    margin-top: -150px;
+}
+
+.background-scroll-down{
+    background: rgb(48, 48, 48) !important;
+}
+
+.box-form-general{
+    margin-bottom: 200px;
+}
+
+
+@media(max-width: 1200px){
+    .box-form-general{
+        background: white;
+        margin: 0% 10%;
+        margin-top: -150px;
+        margin-bottom: 200px;
+    }
+}

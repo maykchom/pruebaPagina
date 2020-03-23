@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2</title>
+    <link rel="stylesheet" href="./css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles_r.css">
+</head>
+<script src="./js/lib/jquery-3.4.1.min.js"></script>
+<script src="./js/lib/bootstrap.min.js"></script>
+<body data-spy="scroll">
+    <nav class="navbar navbar-expand fixed-top">
+        <div class="container">
+            <p class="h4 pt-3"> <a href="#" class="logo-text">ByMike</a></p>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link text-white">
+                            Regresar
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </nav>
+    <section class="section-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-hero-head text-white">
+                        <h1 class="box-hero-head-title">¡BIENVENIDO AL REGISTRO!</h1>
+                        <p class="lead">Por favor ingrese los datos indicados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-form box-form-general shadow-lg">
+        <div class="container ">
+            <div class="col-12 ">
+                <div class="box-form-content">
+                    <div class="box-form-title pt-4">
+                        <p class="h4 font-weight-bold pb-4">Registro</p>
+                    </div>
+                    <div class="box-form pb-5">
+                        <div class="row">
+                            <div class="col-md-6 box-row-1">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Nombre</p>
+                                    <input type="text"
+                                    class="form-control"
+                                    id="name-field"
+                                    placeholder="Ingresa tu nombre"
+                                    required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 box-row-2 ">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Apellidos</p>
+                                    <input type="text"
+                                    class="form-control"
+                                    id="lastName-field"
+                                    placeholder="Ingresa tus apellidos"
+                                    required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 box-row-1">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Fecha de nacimiento</p>
+                                    <input type="date"
+                                    class="form-control"
+                                    id="name-field"
+                                    required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 box-row-2 ">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Carné</p>
+                                    <input type="text"
+                                    class="form-control"
+                                    id="lastName-field"
+                                    placeholder="Ingresa tu No.Carné"
+                                    required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 box-row-1">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Email</p>
+                                    <input type="text"
+                                    class="form-control"
+                                    id="name-field"
+                                    placeholder="Ingresa tu email"
+                                    required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 box-row-1">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Contraseña</p>
+                                    <input type="password"
+                                    class="form-control"
+                                    id="pass-field"
+                                    placeholder="Ingresa tu contraseña"
+                                    required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 box-row-2 ">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Confirmar contraseña</p>
+                                    <input type="password"
+                                    class="form-control"
+                                    id="lastName-field"
+                                    placeholder="Repite tu contraseña"
+                                    required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 box-row-1">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Departamento</p>
+                                    <select id="minicipio" class="form-control">
+                                        <option value="">Guatemala</option>
+                                        <option value="">Sacatepéquez</option>
+                                        <option value="">Quetzaltenando</option>
+                                        <option value="">Huehuetenango</option>
+                                        <option value="">Quiché</option>
+                                        <option value="">San Marcos</option>
+                                        <option value="">Sololá</option>
+                                        <option value="">Totonicapan</option>
+                                        <option value="">Retalhuleu</option>
+                                        <option value="">Escuintla</option>
+                                        <option value="">Santa Rosa</option>
+                                        <option value="">Jutiapa</option>
+                                        <option value="">Jalapa</option>
+                                        <option value="">Chiquimila</option>
+                                        <option value="">Zacapa</option>
+                                        <option value="">El progreso</option>
+                                        <option value="">Izabal</option>
+                                        <option value="">Petén</option>
+                                        <option value="">Alta Verapáz</option>
+                                        <option value="">Baja Verapáz</option>
+                                        <option value="">Chitamltenango</option>
+                                        <option value="">Suchitepéquez</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 box-row-2 ">                            
+                                <div class="form-group">
+                                    <p class="font-weight-light m-0">Municipio</p>
+                                    <input type="text"
+                                    class="form-control"
+                                    id="lastName-field"
+                                    placeholder="Ingresa tu municipio"
+                                    required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/lib/jquery-3.4.1.min.js"></script>
+    <script src="./js/lib/bootstrap.min.js"></script>    
+    <script src="./js/nav-scroll.js"></script>
+</body>
+</html>
